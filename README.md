@@ -9,7 +9,7 @@ I train light-weight object detection models
 
 ## Pedestrian light datasets 
 
-- AI-Hub street walking dataset
+#### AI-Hub street walking dataset
 
 [Dataset_Download_Link](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=189)
 
@@ -54,11 +54,11 @@ If you use our dataset split, Please refer to the split in the data/AIHub/labels
 │   |    |    |    ├──...
 ``` 
 
-- Imvisible dataset
+#### Imvisible dataset
 
 [Dataset_Download_Link](https://github.com/samuelyu2002/ImVisible). 
 
-My download script is available in dataset_preparation/download_imvisible.py
+My download script is available in [dataset_preparation/download_imvisible.py](dataset_preparation/download_imvisible.py)
 
 *Caution: you need to install gdown first.*
 
@@ -89,15 +89,25 @@ However, the required traffic light for visually impared is **only the pedestria
 Therefore, we are firstly train classification model on [Imsivible dataset](https://github.com/samuelyu2002/ImVisible) and [ETRI traffic light dataset](https://nanum.etri.re.kr/share/kimjy/etri_traffic_light?lang=ko_KR)
 
 
-- model training 
-
-
+## model training 
 ## Training detection model
 
 Now we have the pseudo labled traffic light dataset. 
 
 I finetune the off-the-shelf lightweight object detection models on collected traffic light dataset.
 
+**Model list**
+
+[x] [yolo_v8](https://github.com/ultralytics/ultralytics) [Wrapper](/yolov8_wrapper.py)
+
+[ ] [yoloX](https://github.com/MegEngine/YOLOX) [Wrapper](/yolox_wrapper.py)
+
+[ ] [yoloR](https://github.com/WongKinYiu/yolor) [Wrapper](/yolor_wrapper.py)
+
+[ ] [yolo_v5](https://github.com/ultralytics/yolov5) [Wrapper](/yolov5_wrapper.py)
+
+
+Please check train_exp.sh or train_exp.bat 
 
 
 ## Citation 
