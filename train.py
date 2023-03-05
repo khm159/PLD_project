@@ -8,7 +8,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--model_name", 
-        default="yolov8x", 
+        default="yolov8x.pt", 
         choices=avail_model
     )
     parser.add_argument(
@@ -22,7 +22,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--batch_size",
-        default=8,
+        default=4,
         type=int
     )
     args = parser.parse_args()
