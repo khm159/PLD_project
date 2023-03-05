@@ -101,6 +101,16 @@ Please check train_exp.sh or train_exp.bat
 
 ### Model Zoo 
 
+| Model  | size<br><sup>(pixels) | mAP<sup>test<br>50-95 | Speed<br><sup>RTX-3090ti<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
+| ------------------------------------------------------------------------------------ | --------------------- | -------------------- | ------------------------------ | ----------------------------------- | ------------------ | ----------------- |
+| YOLOv8n | 640                   |                 |                               | 3.2                | 8.7               |
+| YOLOv8s | 640                   |                 |                               | 11.2               | 28.6              |
+| YOLOv8m | 640                   |                 |                               | 25.9               | 78.9              |
+| YOLOv8l | 640                   |                 |                               | 43.7               | 165.2             |
+| YOLOv8x | 640                   |                 |                               | 68.2               | 257.8             |
+
+- **mAP<sup>test</sup>** values are for single-model single-scale on [AIHub](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=189) dataset.
+
 ### Results 
 
 ### Color Classification Module 
@@ -109,10 +119,13 @@ Please check train_exp.sh or train_exp.bat
 
 If you find this repository helpful, please give us a citation.
 
-    @article{Kim2023PLDproject,
-        title={The PLD project: Pedestrian Light Detection project for visually impared person},
-        author={Hyungmin Kim},
-        journal={arXiv preprint},
-        year={2023},
-        publisher={arXiv}
+    @software{
+        Hyungmin_PLD_porject_Pedestrain_2023,
+        author = {Hyungmin, Kim},
+        license = {GPL-3.0},
+        month = {3},
+        title = {{PLD porject: Pedestrain Light Detection project for visually impared person}},
+        url = {https://github.com/khm159/PLD_project},
+        version = {0.0},
+        year = {2023}
     }
