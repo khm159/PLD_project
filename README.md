@@ -103,6 +103,7 @@ Please check train_exp.sh or train_exp.bat
 
 ### Results 
 
+### Color Classification Module 
 
 ## Citation 
 
