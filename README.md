@@ -78,15 +78,6 @@ class 0 : car traffic light
 
 class 1 : pedestrain traffic light
 
-**[2] Pedestrian traffic light and car traffic light classification model**
-
-- data processing
-
-There is no distinction between pedestrian traffic lights and vehicle traffic lights in AI-Hub street walking dataset
-
-However, the required traffic light for visually impared is **only the pedestrian traffic light.**
-
-Therefore, we are firstly train classification model on [Imsivible dataset](https://github.com/samuelyu2002/ImVisible) and [ETRI traffic light dataset](https://nanum.etri.re.kr/share/kimjy/etri_traffic_light?lang=ko_KR)
 
 ## model training 
 
