@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+preferred-citation:
+  type: software
+  message: If you use PLDproject, please cite it as below.
+  authors:
+  - family-names: Hyungmin
+    given-names: Kim
+    orcid: "https://orcid.org/0000-0002-5889-8445"
+  title: "PLD porject: Pedestrain Light Detection project for visually impared person"
+  version: 0.0
+  date-released: 2023-03-02
+  license: GPL-3.0
+  url: "https://github.com/khm159/PLD_project"
