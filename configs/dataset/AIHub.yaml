@@ -1,4 +1,4 @@
-path: C:/Users/ETRI/Desktop/PLD_project/data/AIHub  # modifiy to your path
+path: YOUR_PATH # modifiy to your path
 train: images/train  # train images (relative to 'path')
 val: images/test  # val images (relative to 'path') 
 test:  # test images (optional)
