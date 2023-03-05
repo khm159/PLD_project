@@ -31,6 +31,29 @@ class 0 : car traffic light
 
 class 1 : pedestrain traffic light
 
+There are no official split.
+
+If you use our dataset split, Please refer to the split in the data/AIHub/labels/train and data/AIHub/labels/test in the directory and place the image files as follows.
+
+```bash
+├── data
+│   ├── AIHub
+│   |    ├── images
+│   |    |    ├── train
+│   |    |    |    ├──MP_KSC_000001.jpg
+│   |    |    |    ├──...
+│   |    |    ├── test
+│   |    |    |    ├──ZED1_KSC_003163_L_P000008.jpg
+│   |    |    |    ├──...
+│   |    ├── labels
+│   |    |    ├── train
+│   |    |    |    ├──MP_KSC_000001.txt
+│   |    |    |    ├──...
+│   |    |    ├── test
+│   |    |    |    ├──ZED1_KSC_003163_L_P000008.txt
+│   |    |    |    ├──...
+``` 
+
 - Imvisible dataset
 
 [Dataset_Download_Link](https://github.com/samuelyu2002/ImVisible). 
@@ -45,7 +68,7 @@ Imvisible dataset has no bbox annotation.
 
 Therefore, i made pseudo annotation using [yolo-v8x model](https://github.com/ultralytics/ultralytics).
 
-The generated pseudo label(bounding-box) is available in 
+The generated pseudo label(bounding-box) is available in
 
 **/label/ImVisible/bbox_original : classname, x1, y1, x2, y2** 
 
@@ -54,7 +77,6 @@ The generated pseudo label(bounding-box) is available in
 class 0 : car traffic light
 
 class 1 : pedestrain traffic light
-
 
 **[2] Pedestrian traffic light and car traffic light classification model**
 
