@@ -111,9 +111,12 @@ Please check train_exp.sh or train_exp.bat
 
 - **mAP<sup>test</sup>** values are for single-model single-scale on [AIHub](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=189) dataset.
 
-### Results 
 
-### Color Classification Module 
+## Color Classification Module 
+
+After detecting the pedestrain light, the color of pedestrain light should be classified. 
+
+
 
 ## Citation 
 
