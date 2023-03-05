@@ -115,6 +115,7 @@ Please check train_exp.sh or train_exp.bat
 
 
 - AI-Hub + Imvisible train 
+
 | Model  | size<br><sup>(pixels) | mAP<sup>test<br>50-95 | Speed<br><sup>RTX-3090ti<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
 | ------------------------------------------------------------------------------------ | --------------------- | -------------------- | ------------------------------ | ----------------------------------- | ------------------ |
 | YOLOv8n | 640                   |                 |                               | 3.2                | 8.7               |
