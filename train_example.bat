@@ -1,0 +1,1 @@
+python train.py --model_name yolov8x.pt --tune_epoch 5 --dataset_config configs/dataset/AIHub.yaml --batch_size 4
