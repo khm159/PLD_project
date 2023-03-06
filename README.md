@@ -103,7 +103,7 @@ Please check train_exp.sh or train_exp.bat
 
 - AI-Hub train only
 
-| Model  | size<br><sup>(pixels) | mAP<sup>test<br>50-95 | Speed<br><sup>RTX-3090ti<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
+| Model  | size<br><sup>(pixels) | mAP<sup>test<br>50-95<br>10 epoch | Speed<br><sup>RTX-3090ti<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
 | ------------------------------------------------------------------------------------ | --------------------- | -------------------- | ------------------------------ | ----------------------------------- | ------------------ |
 | YOLOv8n | 640                   |                 |                               | 3.2                | 8.7               |
 | YOLOv8s | 640                   |                 |                               | 11.2               | 28.6              |
@@ -116,7 +116,7 @@ Please check train_exp.sh or train_exp.bat
 
 - AI-Hub + Imvisible train 
 
-| Model  | size<br><sup>(pixels) | mAP<sup>test<br>50-95 | Speed<br><sup>RTX-3090ti<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
+| Model  | size<br><sup>(pixels) | mAP<sup>test<br>50-95<br>10 epoch | Speed<br><sup>RTX-3090ti<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
 | ------------------------------------------------------------------------------------ | --------------------- | -------------------- | ------------------------------ | ----------------------------------- | ------------------ |
 | YOLOv8n | 640                   |                 |                               | 3.2                | 8.7               |
 | YOLOv8s | 640                   |                 |                               | 11.2               | 28.6              |
