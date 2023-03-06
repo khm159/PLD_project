@@ -2,3 +2,4 @@ data/AIHub/images/*
 data/AIHub/labels/test.cache
 data/AIHub/labels/train.cache
 runs/*
+*.pt
