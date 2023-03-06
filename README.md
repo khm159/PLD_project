@@ -106,7 +106,7 @@ Please check train_exp.sh or train_exp.bat
 | ------------------------------------------------------------------------------------ | --------------------- | -------------------- | ------------------------------ | ----------------------------------- | ------------------ | ------------------ |
 | YOLOv8n | 640 | [0.2538](results/yolov8n_AIHub_only_10epoch/RESULTS.MD) |   |        | 3.2    | 8.7     |
 | YOLOv8s | 640 | [0.2893](results/yolov8s_AIHub_only_10epoch/RESULTS.MD) |   |        | 11.2   | 28.6    |
-| YOLOv8m | 640 |   |                                                     |   |        | 25.9   | 78.9    |
+| YOLOv8m | 640 |                                                         |   |        | 25.9   | 78.9    |
 | YOLOv8l | 640 | [0.3260](results/yolov8l_AIHub_only_10epoch/RESULTS.MD) |   |        | 43.7   | 165.2   |
 | YOLOv8x | 640 | [0.3357](results/yolov8x_AIHub_only_10epoch/RESULTS.MD) |   |        | 68.2   | 257.8   |
 
