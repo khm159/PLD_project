@@ -103,26 +103,26 @@ Please check train_exp.sh or train_exp.bat
 
 - AI-Hub train only
 
-| Model  | size<br><sup>(pixels) | mAP<sup>test<br>50-95<br>10 epoch | mAP<sup>test<br>50-95<br>20 epoch | Speed<br><sup>RTX-3090ti<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
-| ------------------------------------------------------------------------------------ | --------------------- | -------------------- | ------------------------------ | ----------------------------------- | ------------------ | ------------------ |
-| YOLOv8n | 640                   |   [0.2538](results/yolov8n_AIHub_only_10epoch/RESULTS.MD)        |   |                            | 3.2                | 8.7               |
-| YOLOv8s | 640                   |   [0.2893](results/yolov8s_AIHub_only_10epoch/RESULTS.MD)        |   |                            | 11.2               | 28.6              |
-| YOLOv8m | 640                   |                 |   |                            | 25.9               | 78.9              |
-| YOLOv8l | 640                   |   [0.3260](results/yolov8l_AIHub_only_10epoch/RESULTS.MD)        |   |                            | 43.7               | 165.2             |
-| YOLOv8x | 640                   |   [0.3357]((results/yolov8x_AIHub_only_10epoch/RESULTS.MD))        |   |                            | 68.2               | 257.8             |
+| Model  | size<br><sup>(pixels) | mAP<sup>test<br>50-95<br>10 epoch | Speed<br><sup>RTX-3090ti<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
+| ------------------------------------------------------------------------------------ | --------------------- | -------------------- | ------------------------------ | ----------------------------------- | ------------------ |
+| YOLOv8n | 640                   |                 |                               | 3.2                | 8.7               |
+| YOLOv8s | 640                   |                 |                               | 11.2               | 28.6              |
+| YOLOv8m | 640                   |                 |                               | 25.9               | 78.9              |
+| YOLOv8l | 640                   |                 |                               | 43.7               | 165.2             |
+| YOLOv8x | 640                   |                 |                               | 68.2               | 257.8             |
 
 - **mAP<sup>test</sup>** values are for single-model single-scale on [AIHub](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=189) dataset.
 
 
 - AI-Hub + Imvisible train 
 
-| Model  | size<br><sup>(pixels) | mAP<sup>test<br>50-95<br>10 epoch | mAP<sup>test<br>50-95<br>20 epoch|Speed<br><sup>RTX-3090ti<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
-| ------------------------------------------------------------------------------------ | --------------------- | -------------------- | ------------------------------ | ----------------------------------- | ------------------ | ------------------ |
-| YOLOv8n | 640                   |  |                |                               | 3.2                | 8.7               |
-| YOLOv8s | 640                   |  |                |                               | 11.2               | 28.6              |
-| YOLOv8m | 640                   |  |                |                               | 25.9               | 78.9              |
-| YOLOv8l | 640                   |  |                |                               | 43.7               | 165.2             |
-| YOLOv8x | 640                   |  |                |                               | 68.2               | 257.8             |
+| Model  | size<br><sup>(pixels) | mAP<sup>test<br>50-95<br>10 epoch | Speed<br><sup>RTX-3090ti<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
+| ------------------------------------------------------------------------------------ | --------------------- | -------------------- | ------------------------------ | ----------------------------------- | ------------------ |
+| YOLOv8n | 640                   |                 |                               | 3.2                | 8.7               |
+| YOLOv8s | 640                   |                 |                               | 11.2               | 28.6              |
+| YOLOv8m | 640                   |                 |                               | 25.9               | 78.9              |
+| YOLOv8l | 640                   |                 |                               | 43.7               | 165.2             |
+| YOLOv8x | 640                   |                 |                               | 68.2               | 257.8             |
 
 - **mAP<sup>test</sup>** values are for single-model single-scale on [AIHub](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=189) dataset.
 
