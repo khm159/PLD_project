@@ -89,10 +89,10 @@ I finetune the off-the-shelf lightweight object detection models on collected tr
 
 |Implemented|Model Name|Wrapper|
 |------|----|----|
-|[x]|[yolo_v8](https://github.com/ultralytics/ultralytics)|[yolov8_wrapper](/yolov8_wrapper.py)|
-|[ ]|[yoloX](https://github.com/MegEngine/YOLOX)|[yolox_wrapper](/yolox_wrapper.py)|
-|[ ]|[yoloR](https://github.com/WongKinYiu/yolor)|[yolor_wrapper](/yolor_wrapper.py)|
-|[ ]|[yolo_v5](https://github.com/ultralytics/yolov5)|[yolov5_wrapper](/yolov5_wrapper.py)|
+|:heavy_check_mark:|[yolo_v8](https://github.com/ultralytics/ultralytics)|[yolov8_wrapper](/yolov8_wrapper.py)|
+|:white_check_mark:|[yoloX](https://github.com/MegEngine/YOLOX)|[yolox_wrapper](/yolox_wrapper.py)|
+|:white_check_mark:|[yoloR](https://github.com/WongKinYiu/yolor)|[yolor_wrapper](/yolor_wrapper.py)|
+|:white_check_mark:|[yolo_v5](https://github.com/ultralytics/yolov5)|[yolov5_wrapper](/yolov5_wrapper.py)|
 
 
 Please check train_exp.sh or train_exp.bat 
