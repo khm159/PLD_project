@@ -1,6 +1,6 @@
 # Yolo-v8 N Results - 10 epoch
 
-- [Pretrained_model]()
+- [Pretrained_model](https://drive.google.com/file/d/1--C93xTg5Jgeo3U2erStAiFDffQ9jdj4/view?usp=share_link)
 
 - Train Dataset : 
 
