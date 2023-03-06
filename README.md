@@ -7,6 +7,16 @@ The PLD project is Pedestrain Light Detection Project for visually impared perso
 
 I train light-weight object detection models 
 
+## TODO List
+
+- [x] Add Yolo-v8 wrapper 
+- [ ] Add Yolo-v5 wrapper
+- [ ] Add YoloR wrapper 
+- [ ] Add YoloX wrapper 
+- [ ] Add EfficientDET wrapper 
+- [ ] Add Demo notebook
+- [ ] Add Demo python source code
+
 ## Pedestrian light datasets 
 
 ### AI-Hub street walking dataset
