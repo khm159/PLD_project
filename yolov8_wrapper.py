@@ -24,5 +24,3 @@ def train_yolov8(
     )
     metrics = model.val()  
     print(metrics)
-    # save model 
-    model.save('yolov8x.pt')
