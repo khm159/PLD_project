@@ -114,7 +114,7 @@ Please check train_exp.sh or train_exp.bat
 
 | Model  | size<br><sup>(pixels) | mAP<sup>test<br>50-95<br>10 epoch | mAP<sup>test<br>50-95<br>20 epoch | Speed<br><sup>RTX-3090ti<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
 | ------------------------------------------------------------------------------------ | --------------------- | -------------------- | ------------------------------ | ----------------------------------- | ------------------ | ------------------ |
-| YOLOv8n | 640 | [0.2538](results/yolov8n_AIHub_only_10epoch/RESULTS.MD) |   |        | 3.2    | 8.7     |
+| YOLOv8n | 640 | [0.2538](results/yolov8n_AIHub_only_10epoch/RESULTS.MD) | [0.2818](results/yolov8n_AIHub_only_20epoch/RESULTS.MD)   |        | 3.2    | 8.7     |
 | YOLOv8s | 640 | [0.2893](results/yolov8s_AIHub_only_10epoch/RESULTS.MD) | [0.3196](results/yolov8s_AIHub_only_20epoch/RESULTS.MD)   |        | 11.2   | 28.6    |
 | YOLOv8m | 640 | [0.3167](results/yolov8m_AIHub_only_10epoch/RESULTS.MD) | [0.3597](results/yolov8m_AIHub_only_20epoch/RESULTS.MD)   |        | 25.9   | 78.9    |
 | YOLOv8l | 640 | [0.3260](results/yolov8l_AIHub_only_10epoch/RESULTS.MD) | [0.3597](results/yolov8l_AIHub_only_20epoch/RESULTS.MD)   |        | 43.7   | 165.2   |
