@@ -13,7 +13,6 @@ I train light-weight object detection models
 - [ ] Add Yolo-v5 wrapper
 - [ ] Add YoloR wrapper 
 - [ ] Add YoloX wrapper 
-- [ ] Add EfficientDET wrapper 
 - [ ] Add Demo notebook
 - [ ] Add Demo python source code
 
@@ -64,29 +63,9 @@ If you use our dataset split, Please refer to the split in the data/AIHub/labels
 │   |    |    |    ├──...
 ``` 
 
-### Imvisible dataset
+### Test benchmark 
 
-[Dataset_Download_Link](https://github.com/samuelyu2002/ImVisible). 
 
-My download script is available in [dataset_preparation/download_imvisible.py](dataset_preparation/download_imvisible.py)
-
-*Caution: you need to install gdown first.*
-
-    pip install gdown
-
-Imvisible dataset has no bbox annotation.
-
-Therefore, i made pseudo annotation using [yolo-v8x model](https://github.com/ultralytics/ultralytics).
-
-The generated pseudo label(bounding-box) is available in
-
-**/label/ImVisible/bbox_original : classname, x1, y1, x2, y2** 
-
-**/label/ImVisible/bbox_normalized : classname, x, y, w, h (normalized)**
-
-class 0 : car traffic light
-
-class 1 : pedestrain traffic light
 
 
 ## model training 
