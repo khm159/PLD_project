@@ -89,6 +89,10 @@ Please check train_exp.sh or train_exp.bat
 
 ### Model Zoo 
 
+All models are trained on GTX 980 ti 
+
+10 epoch, 20 epoch, 30 epoch models are seperately trained.
+
 - AI-Hub train only
 
 | Model  | size<br><sup>(pixels) | mAP<sup>test<br>50-95<br>10 epoch | mAP<sup>test<br>50-95<br>20 epoch |mAP<sup>test<br>50-95<br>30 epoch | Speed<br><sup>RTX-3090ti<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
